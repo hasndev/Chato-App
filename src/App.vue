@@ -32,7 +32,7 @@ const conversations = ref([
     id: 1,
     name: 'Ali Karrar',
     username: 'ali97',
-    avatar: '/src/assets/user-avatar.webp',
+    avatar: 'https://www.hasndev.com/user-avatar.webp',
     message: 'Hello!',
     messages: [
       { id: 1, fromMe: false, text: 'Hello there!' },
@@ -43,7 +43,7 @@ const conversations = ref([
     id: 2,
     name: 'Ahmed Mohammed',
     username: 'ahmed90',
-    avatar: '/src/assets/user-avatar.webp',
+    avatar: 'https://www.hasndev.com/user-avatar.webp',
     message: 'Hi there!',
     messages: [
       { id: 1, fromMe: false, text: 'Nice to meet you!' },
@@ -56,7 +56,7 @@ const selectedConversation = ref({
   id: 1,
   name: 'Ali Karrar',
   username: 'ali97',
-  avatar: '/src/assets/user-avatar.webp',
+  avatar: 'https://www.hasndev.com/user-avatar.webp',
   message: 'Hello!',
   messages: [
     { id: 1, fromMe: false, text: 'Hello there!' },
